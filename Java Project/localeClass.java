@@ -3,14 +3,14 @@
  * Gregory Fox
  *
  */
- 
+
 public class localeClass {
 
     private int    id;
     private String name;
     private String desc;
     private String item;
-    private boolean hasVisited = false;
+    private boolean hasVisited;
 
 
 
@@ -23,7 +23,8 @@ public class localeClass {
     }
 
     public localeClass(int theId) {
-		this.id = theId;
+        this.id = theId;
+        hasVisited = false;
     }
 
     public int getId() {
