@@ -3,7 +3,7 @@
  * Gregory Fox
  *
  */
- 
+
 public class listMan {
 
     //
@@ -39,7 +39,7 @@ public class listMan {
     // Other methods
     @Override
     public String toString() {
-        String retVal = new String();
+        String retVal;
         retVal = super.toString() + " name=" + this.name + " desc=" + this.desc + "\n";
         globeWandererItems currentItem = this.head;
         while (currentItem != null) {
