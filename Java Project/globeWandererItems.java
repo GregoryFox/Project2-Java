@@ -42,7 +42,7 @@ public class globeWandererItems {
     public globeWandererItems getNext() {
         return next;
     }
-    
+
     public void setNext(globeWandererItems next) {
         this.next = next;
     }
